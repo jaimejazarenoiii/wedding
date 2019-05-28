@@ -1,14 +1,28 @@
 ---
 ---
 
-.header-container {
-  background-image: url("../images/bg.JPG") ;
-  background-position: 0 14%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #999;
+@font-face {
+  font-family: great-vibes;
+  src: url('../fonts/GreatVibes-Regular.ttf');
 }
 
+.header-container {
+  background-image: url("../images/bg.JPG") ;
+  background-position: -22vw 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0a0b0d;
+}
+
+.hero.is-primary {
+  background-color: #0a0b0d;
+}
 .title {
   text-shadow: 1px 1px 1px black;
+  &.-gold-color {
+    color: #B9A481 !important;
+  }
+  &.-great-vibes {
+    font-family: great-vibes;
+  }
 }

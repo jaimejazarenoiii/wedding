@@ -1,27 +1,40 @@
 ---
 ---
 
+$default-gold: #B9A481;
+$default-black: #0a0b0d;
+
 @font-face {
   font-family: great-vibes;
   src: url('../fonts/GreatVibes-Regular.ttf');
 }
 
 .header-container {
-  background-image: url("../images/bg.JPG") ;
+  background-image: url("../images/bg.JPG");
   background-position: -22vw 15%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #0a0b0d;
+  background-color: $default-black;
 }
 
-.hero.is-primary {
-  background-color: #0a0b0d;
+.hero {
+  &.is-primary {
+    background-color: $default-black;
+  }
+
+  &.-gold-color {
+    color: $default-gold;
+  }
+
+  &.-gold-background { 
+    background-color: $default-gold;
+  }
 }
 
 .title {
   text-shadow: 1px 1px 1px black;
   &.-gold-color {
-    color: #B9A481 !important;
+    color: $default-gold !important;
   }
   &.-great-vibes {
     font-family: great-vibes;
@@ -31,4 +44,32 @@
 #map, #map2 {
   width: 100%;
   height: 300px;
+}
+
+.column {
+
+  &.-margin-bottom-30 {
+    margin-bottom: 30px;
+  }
+}
+
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+
+.my-gallery figcaption {
+  display: none;
 }

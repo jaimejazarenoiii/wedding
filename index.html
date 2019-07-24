@@ -14,175 +14,22 @@
       rel="stylesheet"
       type="text/css">
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0/mapbox-gl.css' rel='stylesheet'/>
-    <link rel="stylesheet" href="assets/css/photoswipe.css" /> 
+    <link rel="stylesheet" href="assets/css/photoswipe.css" />
+    <link rel="stylesheet" href="assets/css/default-skin/default-skin.css" />
     <link
       href="assets/css/style.css"
       rel="stylesheet"
       type="text/css">
   </head>
   <body>
-    <section class="hero is-primary is-large header-container">
-      <div class="hero-body has-text-right">
-        <div class="container animated slideInUp slower">
-          <h1 class="title -gold-color is-size-1 -great-vibes">
-            {{ site.main_title }}
-          </h1>
-          <h1 class="title is-size-1 -great-vibes">
-            {{ site.subtitle }}
-          </h1>
-          <h2 class="subtitle">
-            {{ site.wedding_date }}
-          </h2>
-        </div>
-      </div>
-    </section>
-    <section class="hero has-background-dark is-medium">
-      <div class="hero-body">
-        <div class="columns is-multiline is-mobile">
-          <div class="column is-full -margin-bottom-30">
-            <h1 class="title is-size-1 has-text-centered -gold-color -great-vibes">Where?</h1>
-          </div>
-          <div class="column is-half-desktop is-full-mobile">
-            <div id="map"></div>
-            <br>
-            <h1 class="title is-size-4 has-text-centered has-text-white
-              -great-vibes"> {{ site.ceremony }} (10:00 am) </h1>
-            <h2 class="subtitle is-size-7 has-text-white has-text-centered">Ching and Ching Law
-              Office </h2>
-            <h2 class="subtitle is-size-7 has-text-white has-text-centered">J
-              Chanyungco Street, Barangay Santa Elena, Marikina, 1800 Metro
-              Manila </h2>
-          </div>
-          <div class="column is-half-desktop is-full-mobile">
-            <div id="map2"></div>
-            <br>
-            <h1 class="title is-size-4 has-text-centered has-text-white
-              -great-vibes"> Reception (11:00 am) </h1>
-            <h2 class="subtitle is-size-7 has-text-white has-text-centered">Eat
-              Fresh </h2>
-            <h2 class="subtitle is-size-7 has-text-white has-text-centered">32 General Ordoñez Ave, Marikina, 1800 Metro Manila
-            </h2>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="hero -gold-background is-medium">
-      <div class="hero-body">
-        <div class="columns is-multiline is-mobile">
-          <div class="column is-half-desktop is-full-mobile">
-            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="assets/images/bg.JPG" itemprop="contentUrl" data-size="964x1024">
-                <img src="assets/images/bg.JPG" itemprop="thumbnail" alt="Image description" />
-              </a>
-              <figcaption itemprop="caption description">Image caption 2.1</figcaption>
-            </figure>
-
-<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="assets/images/bg.JPG" itemprop="contentUrl" data-size="964x1024">
-                <img src="assets/images/bg.JPG" itemprop="thumbnail" alt="Image description" />
-              </a>
-              <figcaption itemprop="caption description">Image caption 2.1</figcaption>
-            </figure>
-
-<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="assets/images/bg.JPG" itemprop="contentUrl" data-size="964x1024">
-                <img src="assets/images/bg.JPG" itemprop="thumbnail" alt="Image description" />
-              </a>
-              <figcaption itemprop="caption description">Image caption 2.1</figcaption>
-            </figure>
-
-            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
-                <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
-              </a>
-              <figcaption itemprop="caption description">Image caption 2.2</figcaption>
-            </figure>
-
-            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
-                <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
-              </a>
-              <figcaption itemprop="caption description">Image caption 2.3</figcaption>
-            </figure>
-          </div>
-
-          <!-- Root element of PhotoSwipe. Must have class pswp. -->
-          <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-            <!-- Background of PhotoSwipe. 
-              It's a separate element, as animating opacity is faster than rgba(). -->
-              <div class="pswp__bg"></div>
-
-              <!-- Slides wrapper with overflow:hidden. -->
-              <div class="pswp__scroll-wrap">
-
-                <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-                <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-                <div class="pswp__container">
-                  <div class="pswp__item"></div>
-                  <div class="pswp__item"></div>
-                  <div class="pswp__item"></div>
-                </div>
-
-                <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-                <div class="pswp__ui pswp__ui--hidden">
-
-                  <div class="pswp__top-bar">
-
-                    <!--  Controls are self-explanatory. Order can be changed. -->
-
-                    <div class="pswp__counter"></div>
-
-                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                    <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                    <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-                    <!-- element will get class pswp__preloader--active when preloader is running -->
-                    <div class="pswp__preloader">
-                      <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                          <div class="pswp__preloader__donut"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div> 
-                  </div>
-
-                  <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                  </button>
-
-                  <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                  </button>
-
-                  <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                  </div>
-
-                </div>
-
-              </div>
-
-          </div>
-          </div>
-          <div class="column is-half-desktop is-full-mobile">
-          </div>
-        </div>
-      </div>
-    </section>
+    {% include _header.html %}
+    {% include _location.html %}
+    {% include _gallery.html %}
+    {% include _slideshow.html %}
   </body>
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0/mapbox-gl.js'></script>
-	<script src="assets/javascripts/photoswipe-ui-default.js"></script>
-	<script src="assets/javascripts/photoswipe.min.js"></script>
+  <script src="assets/javascripts/photoswipe-ui-default.js"></script>
+  <script src="assets/javascripts/photoswipe.min.js"></script>
   <script src="assets/javascripts/gallery.js"></script>
   <script src="assets/javascripts/action.js"></script>
 </html>

@@ -13,6 +13,80 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+gallery:
+  - image:
+    url: "https://docs.google.com/uc?id=1G6oTN5xdKO1g2LRrZNXtiY6apKrdbQSe"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f9HHpirzAiDhF5TioQl070rg6pZToVqd"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1u30IoBl2LAnNkUEPe4xw-dN7QkSmf-D6"
+    size: "850x1200"
+  - image:
+    url: "https://drive.google.com/uc?id=1g-lsCmskP-by55ZLJIpZQiZp7ZKq8dXn"
+    size: "850x1200"
+  - image:
+    url: "https://drive.google.com/uc?id=13QrBh7R7zOL8YVh-VQp4zz-OO1INaMRA"
+    size: "850x1200"
+  - image:
+    url: "https://drive.google.com/uc?id=1ZQOZCnqsOfkvK-19HISsmynGKiG0NcKy"
+    size: "850x1200"
+  - image:
+    url: "https://drive.google.com/uc?id=1RTi_XcPt4EuhygQBQvgeK71sbjmy6rJm"
+    size: "850x1200"
+  - image:
+    url: "https://drive.google.com/uc?id=1X4T6bGpwFWzTadVZ-tByd832qmleuH6-"
+    size: "850x1200"
+  - image:
+    url: "https://drive.google.com/uc?id=1kmL9OA0PTHqJTfLCiRKyepowZKdTgKYN"
+    size: "850x1200"
+  - image:
+    url: "https://drive.google.com/uc?id=1Xr6hWB3jk14tI_1n-Pv4GjxsEz_xu0mG"
+    size: "850x1200"
+  - image:
+    url: "https://drive.google.com/uc?id=1UaeBgbK7nafboi6YmC3jX5XSP0GE13Pm"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+  - image:
+    url: "https://docs.google.com/uc?id=1f5nutzpOIKu7CsUrfbBCCZReGwZAkWAI"
+    size: "850x1200"
+
 wedding_date: "August 30, 2019"
 main_title: Jaime & Alexandra's
 subtitle: Wedding

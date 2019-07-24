@@ -54,8 +54,9 @@ $default-black: #0a0b0d;
 }
 
 .my-gallery {
+  margin: 0 auto;
   width: 100%;
-	text-alignment: center;
+  display: inline-block;
 }
 
 .my-gallery img {

@@ -55,7 +55,7 @@ $default-black: #0a0b0d;
 
 .my-gallery {
   width: 100%;
-  float: left;
+	text-alignment: center;
 }
 
 .my-gallery img {
@@ -64,10 +64,8 @@ $default-black: #0a0b0d;
 }
 
 .my-gallery figure {
-  display: block;
-  float: left;
   margin: 0 5px 5px 0;
-  width: 150px;
+  width: auto;
 }
 
 .my-gallery figcaption {

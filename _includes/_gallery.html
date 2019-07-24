@@ -1,7 +1,7 @@
 <section class="hero -gold-background is-medium">
   <div class="hero-body">
     <div class="columns my-gallery is-multiline is-mobile">
-      <div class="column">
+      <div class="column is-full-mobile is-one-quarter-desktop">
         {% for image in site.gallery %}
         <figure class="image" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
           <a href="{{ image.url }}" itemprop="contentUrl" data-size="850x1200">
@@ -10,7 +10,7 @@
         </figure>
         {% endfor %}
       </div>
-      <div class="column">
+      <div class="column is-full-mobile is-one-quarter-desktop">
         {% for image in site.gallery %}
         <figure class="image" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
           <a href="{{ image.url }}" itemprop="contentUrl" data-size="850x1200">
@@ -19,7 +19,7 @@
         </figure>
         {% endfor %}
       </div>
-      <div class="column">
+      <div class="column is-full-mobile is-one-quarter-desktop">
         {% for image in site.gallery %}
         <figure class="image" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
           <a href="{{ image.url }}" itemprop="contentUrl" data-size="850x1200">

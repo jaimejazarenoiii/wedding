@@ -9,6 +9,9 @@ window.onload = function () {
   setTimeout(function() {
     hiddenDiv.classList.remove('is-hidden')
     hiddenDiv.classList.add('animated', 'fadeIn')
+    setTimeout(function() {
+      displayedDiv.classList.add('is-hidden')
+    }, 1000)
     mapboxgl.accessToken = 'pk.eyJ1IjoiamFpbWVjaHVyIiwiYSI6ImNqc3h2eGxjMTBxNnQ0M3MxaWFidG04Z3QifQ.aczFGO6YS18EDic757AHrA';
     var map = new mapboxgl.Map({
       container: 'map', // container id

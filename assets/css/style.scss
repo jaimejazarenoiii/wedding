@@ -77,19 +77,21 @@ body {
 }
 
 .my-gallery {
-  margin: 0 auto;
   width: 100%;
-  display: inline-block;
+  float: left;
+  text-alignment: center;
 }
 
 .my-gallery img {
   width: 100%;
   height: auto;
+  border: 4px white solid;
 }
 
 .my-gallery figure {
+  display: inline-block;
   margin: 0 5px 5px 0;
-  width: auto;
+  width: 150px;
 }
 
 .my-gallery figcaption {

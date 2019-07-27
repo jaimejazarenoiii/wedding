@@ -115,7 +115,6 @@ function render() {
     mesh.material.opacity = 1-progress;
     ringcover.material.opacity = ring.material.opacity = progress;
     ring.scale.x = ring.scale.y = 0.9 + 0.1*progress;
-console.log('hehe')
   }
 
   renderer.render(scene, camera);

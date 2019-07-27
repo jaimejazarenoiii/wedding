@@ -91,3 +91,11 @@ $default-black: #0a0b0d;
 .my-gallery figcaption {
   display: none;
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    &.-proposal {
+      background-position: center;
+    }
+  }
+}

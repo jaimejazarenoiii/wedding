@@ -9,6 +9,10 @@ $default-black: #0a0b0d;
   src: url('../fonts/GreatVibes-Regular.ttf');
 }
 
+body {
+  background: $default-gold;
+}
+
 .header-container {
   background-image: url("../images/bg.JPG");
   background-position: -22vw 15%;

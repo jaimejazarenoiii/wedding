@@ -17,57 +17,75 @@ gallery:
   - image:
     url: "assets/images/gallery4.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery5.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "https://drive.google.com/uc?id=130Cj0yZRydPVP3d3XDqMJUpg-_W1tiCf"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery3.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery1.jpg"
     size: "800x600"
+    class: "is-4by3"
   - image:
     url: "assets/images/gallery9.jpg"
     size: "800x600"
+    class: "is-4by3"
   - image:
     url: "https://drive.google.com/uc?id=1tVBUcKR7SbsOnEiOB5D3mYcAT3xhjGP9"
     size: "800x600"
+    class: "is-4by3"
   - image:
     url: "assets/images/gallery11.jpg"
     size: "800x600"
+    class: "is-4by3"
   - image:
     url: "assets/images/gallery7.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery8.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery2.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery10.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery6.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery12.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery16.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery15.jpg"
     size: "850x1200"
+    class: "is-3by4"
   - image:
     url: "assets/images/gallery13.jpg"
     size: "850x600"
+    class: "is-4by3"
   - image:
     url: "assets/images/gallery14.jpg"
     size: "850x600"
+    class: "is-4by3"
 
 wedding_date: "August 31, 2019"
 main_title: Jaime & Alexandra's

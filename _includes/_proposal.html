@@ -1,29 +1,13 @@
 <section class="hero is-medium -proposal">
   <div class="hero-body has-text-centered">
     <div class="columns is-multiline is-mobile">
-      <div class="column is-half-desktop is-full-mobile">
+      <div class="column is-full">
         <h1 class="title is-size-1 -great-vibes has-text-white">The Proposal</h1>
         <iframe width="100%" height="400px"
           src="https://www.youtube.com/embed/ij7zy2h0t_E" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope;
         picture-in-picture" allowfullscreen class="proposal-vid"></iframe>
       </div>
-      <div class="column is-half-desktop is-full-mobile">
-        <h1 class="title is-size-1 -great-vibes has-text-white">Us</h1>
-        <div class="my-gallery" itemscope
-          itemtype="http://schema.org/ImageGallery">
-          {% for image in site.gallery %}
-            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="{{ image.url }}" itemprop="contentUrl" data-size="{{
-              image.size }}">
-                <img src="{{ image.url }}" itemprop="thumbnail" alt="Image description" />
-              </a>
-            </figure>
-          {% endfor %}
-        </div>
-      </div>
     </div>
-  </div>
-  </div>
   </div>
 </section>

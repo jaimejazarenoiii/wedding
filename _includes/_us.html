@@ -1,0 +1,26 @@
+<section class="hero is-medium -gold-background">
+  <div class="hero-body has-text-centered">
+    <div class="columns is-multiline is-mobile">
+      <div class="column is-full">
+        <h1 class="title is-size-1 -great-vibes has-text-white">Us</h1>
+        <div class="my-gallery" itemscope
+          itemtype="http://schema.org/ImageGallery">
+          <div class="columns is-multiline is-mobile">
+            {% for image in site.gallery %}
+            <div class="column is-one-quarter-desktop is-half-mobile">
+              <figure class="image {{ image.class }}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="{{ image.url }}" itemprop="contentUrl" data-size="{{
+                image.size }}">
+                  <img src="{{ image.url }}" itemprop="thumbnail" alt="Image description" />
+                </a>
+              </figure>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>

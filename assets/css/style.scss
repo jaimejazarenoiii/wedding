@@ -87,3 +87,11 @@ body {
 .my-gallery figcaption {
   display: none;
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    &.-proposal {
+      background-attachment: unset;
+    }
+  }
+}
